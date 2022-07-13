@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/190d2f0c87.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="public/css/header.css" rel="stylesheet"> 
+    <link href="public/css/footer.css" rel="stylesheet"> 
+    <link href="public/css/login-register.css" rel="stylesheet"> 
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="public/images/logo.png" alt="logo">
+                    <h1>BARCLAYS</h1>
+                </a>
+            </div>
+            <div class="reg-log">
+                <a class="darkBack" href="register.html">OPEN AN ACCOUNT</a>
+                <a class="darkBack" href="login.html">LOGIN</a>
+            </div>
+        </div>
+        <nav>
+            <a class="navhover" href="index.html">HOME</a>
+            <a class="navhover" href="">PERSONAL</a>
+            <a class="navhover" href="">BUSISNESS</a>
+            <a class="navhover" href="">TOOLS & SERVICES</a>
+            <a class="navhover" href="">ABOUT US</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <h3 class="title">Login to your account</h3>
+        <form id="formLogin" action="profile.html" method="post">
+            <div class="userDataRow email">
+                <label for="email"><i class="fa-solid fa-envelope"></i></label>
+                <input id="userName" type="email" name="email" placeholder="Email">
+            </div>
+            <p class="nameError errores"></p>
+            <div class="userDataRow password">
+                <label for="password"><i class="fa-solid fa-key"></i></label>
+                <input id="password" type="password" name="password" placeholder="Password" maxlength="20">
+            </div>
+            <p class="passwordError errores"></p>
+            <button class="button" type="submit">Login</button>
+        </form>
+        <p class="redirect">Don't have an account yet? <a href="register.html"> Register</a></p>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <h2>BARCLAYS</h2>
+            <div class="FooterItems">
+                <div class= "LeftPanel">
+                    <div class="FooterPanel" >
+                        <div class="DetailFooter"><p>Contact</p></div>
+                            <p>Av. Fox 1730</p>
+                            <p>info@barclays.com</p>
+                    </div>
+                    <div class="FooterPanel">
+                        <div class="DetailFooter"><p>Products</p></div>
+                            <p class= DetailText>Accounts</p>
+                            <p class= DetailText>Credit Cards</p>
+                        </div>
+                </div>
+                <div class= "RightPanel"> 
+                    <div class= "FooterPanel">
+                        <div class="DetailFooter"><p>About us</p></div>
+                            <p>Company</p>
+                            <p>Mision</p>
+                    </div>
+                    <div class= "FooterPanel">
+                        <div class="DetailFooter"><p>Others</p></div>
+                            <p>Contact</p>
+                            <p>Privacity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class= "RedesSociales">
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://goo.gl/maps/Y7cLpjKLKvzSSjtV9"><i class="fas fa-map-marker-alt"></i></a>
+            <a href="mailto: fwagner@asjservicios.com"><i class="far fa-envelope"></i></a>
+        </div>
+        <hr>     
+        <div class="CopyRight">
+            <p>© 2021 All rights reserved</p>
+        </div>
+    </footer>
+</body>
+    <script src="public/js/login.js"></script>
+</html>

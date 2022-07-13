@@ -1,0 +1,109 @@
+main{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+main .userData{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+main .userData h2{
+    text-align: center;
+}
+main .userData .avatar{
+    height: 100px;
+    border-radius: 50%;
+}
+.color-strong{
+    background-color: #327aff;
+}
+.color-mid{
+    background-color: #b9241f;
+}
+.color-soft{
+    background-color: #dfeefd;
+}
+.color-border-mid{
+    border: solid 1px #63bef3;
+}
+main .balances{
+    width: 40%;
+    font-size: 20px;
+    border-radius: 25px;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+main .balances h4{
+    margin-top: 10px;
+}
+main .balances div{
+    color: white;
+    font-weight: bold;
+}
+main .balances .accountBlc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+}
+main .transList{
+    height: 40%;
+    width: 60%;
+    margin: 0px auto;
+    padding: 40px 0px;
+}
+main .transList ul{
+    list-style-type: none;
+    margin: auto;
+    margin-top: 15px;
+    height: 100%;
+}
+main .transList ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 0%;
+    background-color: white;
+    height: 100px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+main .transList ul li .imgName{
+    display: flex;
+    align-items: center;
+
+    height: 80%;
+}
+main .transList ul li .imgName .datos{
+    margin-left: 10px;
+}
+main .transList ul li .imgName h5{
+    color: gray;
+}
+main .transList ul li .amount{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+main .transList ul li .amount p{
+    background-color: white;
+    margin-right: 10px;
+    padding: 0px 15% 0px 15%;
+    border-radius: 30px;
+}
+main .transList ul li img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 0px 20px 0px 20px;
+    object-fit: cover;
+}
